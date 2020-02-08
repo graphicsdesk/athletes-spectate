@@ -3,8 +3,13 @@
 // @import 'styles/eye-lead-ellipsis';
 // @import 'styles/news-ellipsis';
 
-.graphic-name {
+.lede-interactive {
   height: 300px;
+  max-width: 600px;
   border: 1px solid red;
+  margin: 0 auto;
   color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
