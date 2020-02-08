@@ -94,7 +94,7 @@ async function readDoc(auth) {
   const phConfig = PH_CONFIG.replace(
     LOCALS_FILLER_STR,
     JSON.stringify({
-      top: {},
+      top: [],
       credits: '',
       footer: '',
       ...doc,
